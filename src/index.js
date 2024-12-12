@@ -8,6 +8,7 @@ import Library from "./chapter_02/Library";
 import Clock from "./chapter_03/Clock";
 import CommentList from "./chapter_04/CommentList";
 import NotificationList from "./chapter_05/NotificationList";
+import Accommodate from "./chapter_06/Accommodate";
 
 //ReactDOM.render(
 //    <React.StrictMode>
@@ -32,9 +33,16 @@ import NotificationList from "./chapter_05/NotificationList";
 //    document.getElementById('root')
 //);
 
+//ReactDOM.render(
+//    <React.StrictMode>
+//        <NotificationList />
+//    </React.StrictMode>,
+//    document.getElementById('root')
+//);
+
 ReactDOM.render(
     <React.StrictMode>
-        <NotificationList />
+        <Accommodate />
     </React.StrictMode>,
     document.getElementById('root')
 );
