@@ -9,6 +9,7 @@ import Clock from "./chapter_03/Clock";
 import CommentList from "./chapter_04/CommentList";
 import NotificationList from "./chapter_05/NotificationList";
 import Accommodate from "./chapter_06/Accommodate";
+import ConfirmButton from "./chapter_07/ConfirmButton";
 
 //ReactDOM.render(
 //    <React.StrictMode>
@@ -40,9 +41,16 @@ import Accommodate from "./chapter_06/Accommodate";
 //    document.getElementById('root')
 //);
 
+//ReactDOM.render(
+//    <React.StrictMode>
+//        <Accommodate />
+//    </React.StrictMode>,
+//    document.getElementById('root')
+//);
+
 ReactDOM.render(
     <React.StrictMode>
-        <Accommodate />
+        <ConfirmButton />
     </React.StrictMode>,
     document.getElementById('root')
 );
