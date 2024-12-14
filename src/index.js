@@ -10,6 +10,7 @@ import CommentList from "./chapter_04/CommentList";
 import NotificationList from "./chapter_05/NotificationList";
 import Accommodate from "./chapter_06/Accommodate";
 import ConfirmButton from "./chapter_07/ConfirmButton";
+import LandingPage from "./chapter_08/LandingPage";
 
 //ReactDOM.render(
 //    <React.StrictMode>
@@ -48,9 +49,16 @@ import ConfirmButton from "./chapter_07/ConfirmButton";
 //    document.getElementById('root')
 //);
 
+//ReactDOM.render(
+//    <React.StrictMode>
+//        <ConfirmButton />
+//    </React.StrictMode>,
+//    document.getElementById('root')
+//);
+
 ReactDOM.render(
     <React.StrictMode>
-        <ConfirmButton />
+        <LandingPage />
     </React.StrictMode>,
     document.getElementById('root')
 );
