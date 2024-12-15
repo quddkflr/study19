@@ -11,6 +11,7 @@ import NotificationList from "./chapter_05/NotificationList";
 import Accommodate from "./chapter_06/Accommodate";
 import ConfirmButton from "./chapter_07/ConfirmButton";
 import LandingPage from "./chapter_08/LandingPage";
+import AttendanceBook from "./chapter_09/AttendanceBook";
 
 //ReactDOM.render(
 //    <React.StrictMode>
@@ -56,9 +57,16 @@ import LandingPage from "./chapter_08/LandingPage";
 //    document.getElementById('root')
 //);
 
+//ReactDOM.render(
+//    <React.StrictMode>
+//        <LandingPage />
+//    </React.StrictMode>,
+//    document.getElementById('root')
+//);
+
 ReactDOM.render(
     <React.StrictMode>
-        <LandingPage />
+        <AttendanceBook />
     </React.StrictMode>,
     document.getElementById('root')
 );
