@@ -14,6 +14,7 @@ import LandingPage from "./chapter_08/LandingPage";
 import AttendanceBook from "./chapter_09/AttendanceBook";
 import SignUp from "./chapter_10/SignUp";
 import Calculator from "./chapter_11/Calculator";
+import ProfileCard from "./chapter_12/ProfileCard";
 
 //ReactDOM.render(
 //    <React.StrictMode>
@@ -80,9 +81,16 @@ import Calculator from "./chapter_11/Calculator";
 //    document.getElementById('root')
 //);
 
+//ReactDOM.render(
+//    <React.StrictMode>
+//        <Calculator />
+//    </React.StrictMode>,
+//    document.getElementById('root')
+//);
+
 ReactDOM.render(
     <React.StrictMode>
-        <Calculator />
+        <ProfileCard />
     </React.StrictMode>,
     document.getElementById('root')
 );
