@@ -15,6 +15,7 @@ import AttendanceBook from "./chapter_09/AttendanceBook";
 import SignUp from "./chapter_10/SignUp";
 import Calculator from "./chapter_11/Calculator";
 import ProfileCard from "./chapter_12/ProfileCard";
+import DarkOrLight from "./chapter_13/DarkOrLight";
 
 //ReactDOM.render(
 //    <React.StrictMode>
@@ -88,9 +89,16 @@ import ProfileCard from "./chapter_12/ProfileCard";
 //    document.getElementById('root')
 //);
 
+//ReactDOM.render(
+//    <React.StrictMode>
+//        <ProfileCard />
+//    </React.StrictMode>,
+//    document.getElementById('root')
+//);
+
 ReactDOM.render(
     <React.StrictMode>
-        <ProfileCard />
+        <DarkOrLight />
     </React.StrictMode>,
     document.getElementById('root')
 );
