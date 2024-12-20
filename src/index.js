@@ -16,6 +16,7 @@ import SignUp from "./chapter_10/SignUp";
 import Calculator from "./chapter_11/Calculator";
 import ProfileCard from "./chapter_12/ProfileCard";
 import DarkOrLight from "./chapter_13/DarkOrLight";
+import Blocks from "./chapter_14/Blocks";
 
 //ReactDOM.render(
 //    <React.StrictMode>
@@ -96,9 +97,16 @@ import DarkOrLight from "./chapter_13/DarkOrLight";
 //    document.getElementById('root')
 //);
 
+//ReactDOM.render(
+//    <React.StrictMode>
+//        <DarkOrLight />
+//    </React.StrictMode>,
+//    document.getElementById('root')
+//);
+
 ReactDOM.render(
     <React.StrictMode>
-        <DarkOrLight />
+        <Blocks />
     </React.StrictMode>,
     document.getElementById('root')
 );
